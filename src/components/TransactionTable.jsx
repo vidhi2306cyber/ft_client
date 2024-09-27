@@ -69,7 +69,11 @@ export const TransactionTable = () => {
       <div className="d-flex justify-content-between pt-3 mb-4">
         <div>{displyTran.length} transaction(s) found!</div>
         <div>
-          <Form.Control type="text" onChange={handleOnSearch} />
+          <Form.Control
+            placeholder="Search transactions..."
+            type="text"
+            onChange={handleOnSearch}
+          />
         </div>
         <div>
           <Button onClick={() => toggleModal(true)}>
