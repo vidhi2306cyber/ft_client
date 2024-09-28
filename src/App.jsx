@@ -28,8 +28,8 @@ function App() {
     <div className="wrapper">
       <Routes>
         <Route path="*" element={<DefaultLayout />}>
-          {/* <Route index element={<Login />} /> */}
-          <Route index element={<h1>Working...</h1>} />
+          <Route index element={<Login />} />
+          {/* <Route index element={<h1>Working...</h1>} /> */}
           {/* <Route path="signup" element={<SignUp />} /> */}
 
           <Route
