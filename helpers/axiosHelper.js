@@ -1,5 +1,5 @@
 import axios from "axios";
-const rootApiEp = import.meta.env.VITE_APP_ROOT_API;
+const rootApiEp = import.meta.env.VITE_APP_ROOT_API + "/api/v1";
 
 const getAccessJWT = () => {
   return localStorage.getItem("accessJWT");
